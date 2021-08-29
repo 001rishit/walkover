@@ -1,63 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Technology</title>
-    </head>
-    <body>
-        <div>
-            <h4>Technology</h4>
-            <span>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
-            </span>
-        </div>
-        <hr>
-        <img src="./src/pic1.jpg" width="500px">
-        <h4>Introduction</h4>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero asperiores veniam odio aliquid porro? Atque facilis ipsa vel perferendis expedita ratione dolore aperiam, laboriosam nostrum id libero debitis vero! Cumque!
-        </p>
-        <br>
-        <ul>
-            <li>Devices</li>
-            <ol>
-                <li>Laptop</li>
-                <li>Camera</li>
-                <li>Smartphone</li>
-            </ol>
-            <li>Software</li>
-            <li>Cloud</li>
-        </ul>
-        <br>
-        <p>
-        Quisque pellentesque quam nibh, et venenatis ante convallis non. Aenean a magna nibh. Aenean quis sollicitudin nisl, quis iaculis ligula. Etiam facilisis ligula mollis, porta dolor ut, consectetur nibh. Integer in fringilla metus. In tristique lacus ut ullamcorper sollicitudin. Donec eget nisi quis erat convallis ultricies. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-        <hr>
-        <figure>
-            <img src="./src/pic2.jpg" width="500px" alt="tech1">
-            <figcaption>Tablets</figcaption>
-        </figure>
 
-        <img src="./src/pic3.jpg" width="500px" alt="Smart experience">
-        <hr>
-        <a href="#">
-            <i class="fab fa-instagram"></i>
-        </a>
-        <div>Contact Us!</div>
+<head>
+	<title>Technology</title>
+    
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
 
-        <form>
-            <label>
-                Name:
-            </label>
-            <input type="text" name="Name" placeholder="Your name">
-            <br>
-            <label>Email:</label>
-            <input type="email" name="email">
-            <br>
-            <textarea placeholder="Feedback"></textarea>
-            <br>
-            <input type="submit" value="Submit">
-        </form>
-     </body>
+<body>
+	<span class="nav">
+		<span class="logo"><h1>Technology</h1></span>
+		<span class="navbar-items"> 
+			<a href= "/" class="nav-item">About</a>
+			<a href= "/" class="nav-item">Services</a>
+			<a href= "/" class="nav-item">Contact Us</a>
+		</span>
+	</span>
+	<div class ="tech-pic">
+		<img src= "./src/pic1.jpg" class="hero-img">
+	</div>
+	<p class="intro">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,<br>
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+	<h2>Products</h2>
+	<div class="menu-items">
+		<div class="item-tile s m l">
+			<img src="./src/laptop.jpg" class="item-img">
+			<div class="item-text">Laptops</div>
+		</div>
+		<div class="item-tile s m l">
+			<img src="./src/smartphone.jpg" class="item-img">
+			<div class="item-text">Smartphones</div>
+		</div>
+		<div class="item-tile s m l">
+			<img src="./src/tablet.jpg" class="item-img">
+			<div class="item-text">Tablets</div>
+		</div>
+		<div class="item-tile s m l">
+			<img src="./src/graphic card.jpg" class="item-img">
+			<div class="item-text">Graphic cards</div>
+		</div>
+		<div class="item-tile s m l">
+			<img src="./src/webcam.jpg" class="item-img">
+			<div class="item-text">Webcams</div>
+		</div>
+		<div class="item-tile s m l">
+			<img src="./src/headphone.jpg" class="item-img">
+			<div class="item-text">Headphones</div>
+		</div>
+	</div>
+	<div class="feedback">
+		<h2>Reviews from our Customers!</h2>
+		<p class="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod" - lorem</p>
+		<p class="quote">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam!" - epsum</p>
+	</div>
+<div class="footer">
+	<div class="title">Subscribe to our newsletter!</div>
+	<form class="form">
+	<label>Name</label>
+	<input type="text" class="Name" placeholder="Your name"><br>
+	<label>Email</label>
+	<input type="email" placeholder = "abc@gmail.com"><br>
+	<input type="submit" class="button" value="Submit"><br>
+</form>
+</div>
+
+</body>
+
 </html>
